@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.cartao.AnaliseCreditoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.805 s <<< FAILURE! - in br.com.cartao.AnaliseCreditoApplicationTests
-contextLoads(br.com.cartao.AnaliseCreditoApplicationTests)  Time elapsed: 0.01 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: 
-Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.exception.FlywaySqlException: 
-Unable to obtain connection from database: FATAL: database "calcard" does not exist
------------------------------------------------------------------------------------
-SQL State  : 3D000
-Error Code : 0
-Message    : FATAL: database "calcard" does not exist
-
-Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: 
-
-Unable to obtain connection from database: FATAL: database "calcard" does not exist
------------------------------------------------------------------------------------
-SQL State  : 3D000
-Error Code : 0
-Message    : FATAL: database "calcard" does not exist
-
-Caused by: org.postgresql.util.PSQLException: FATAL: database "calcard" does not exist
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.734 s - in br.com.cartao.AnaliseCreditoApplicationTests
