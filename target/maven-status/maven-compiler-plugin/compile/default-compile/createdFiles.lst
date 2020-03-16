@@ -1,0 +1,14 @@
+br/com/cartao/model/enumeration/EstadoCivil.class
+br/com/cartao/controller/AnaliseCreditoController.class
+br/com/cartao/model/AnaliseCredito.class
+br/com/cartao/payload/ApiResponse.class
+br/com/cartao/model/util/ResultadoAnalise.class
+br/com/cartao/service/AnaliseCreditoService.class
+br/com/cartao/AnaliseCreditoApplication.class
+br/com/cartao/util/AppConstants.class
+br/com/cartao/model/enumeration/Sexo.class
+br/com/cartao/exception/ResourceNotFoundException.class
+br/com/cartao/model/BaseModel.class
+br/com/cartao/repository/AnaliseCreditoRepository.class
+br/com/cartao/payload/AnaliseCreditoRequest.class
+br/com/cartao/model/enumeration/StatusAnalise.class

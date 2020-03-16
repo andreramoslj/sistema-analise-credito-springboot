@@ -1,0 +1,14 @@
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/enumeration/Sexo.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/enumeration/EstadoCivil.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/controller/AnaliseCreditoController.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/service/AnaliseCreditoService.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/exception/ResourceNotFoundException.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/util/ResultadoAnalise.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/payload/AnaliseCreditoRequest.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/AnaliseCredito.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/BaseModel.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/AnaliseCreditoApplication.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/repository/AnaliseCreditoRepository.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/util/AppConstants.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/model/enumeration/StatusAnalise.java
+/home/andre/projetos/CALCARD/sistema-analise-credito-springboot/src/main/java/br/com/cartao/payload/ApiResponse.java
