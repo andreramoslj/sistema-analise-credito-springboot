@@ -98,43 +98,8 @@ public class AnaliseCredito  {
 
 
 
-    private String firstName;
-    private String lastName;
-    private String emailId;
-
     public AnaliseCredito() {
 
-    }
-
-    public AnaliseCredito(String firstName, String lastName, String emailId) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.emailId = emailId;
-    }
-
-
-    @Column(name = "first_name", nullable = true)
-    public String getFirstName() {
-        return firstName;
-    }
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    @Column(name = "last_name", nullable = true)
-    public String getLastName() {
-        return lastName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    @Column(name = "email_address", nullable = true)
-    public String getEmailId() {
-        return emailId;
-    }
-    public void setEmailId(String emailId) {
-        this.emailId = emailId;
     }
 
     @Override
@@ -152,9 +117,6 @@ public class AnaliseCredito  {
                 ", renda=" + renda +
                 ", limiteMinimo=" + limiteMinimo +
                 ", limiteMaximo=" + limiteMaximo +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", emailId='" + emailId + '\'' +
                 '}';
     }
 }

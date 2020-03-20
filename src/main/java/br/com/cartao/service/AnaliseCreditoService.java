@@ -43,6 +43,10 @@ public class AnaliseCreditoService {
     public List<AnaliseCredito> getAnalises() {
         return analiseCreditoRepository.findAll(Sort.by(Sort.Direction.DESC,"dataAnalise"));
     }
+    public List<AnaliseCredito> getAnalises(String cpf) {
+        List<AnaliseCredito> LISTTESTE = analiseCreditoRepository.findByCpf(cpf);
+        return LISTTESTE;
+    }
 
 
     public boolean existsById(Long id) {

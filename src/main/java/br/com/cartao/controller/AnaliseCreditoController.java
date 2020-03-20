@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -40,6 +41,16 @@ public class AnaliseCreditoController {
     @GetMapping("/analise-credito")
     public List<AnaliseCredito> getAnalises() {
         return  analiseCreditoService.getAnalises();
+    }
+
+
+    @ApiOperation(value="Retorna uma lista de Análise de Créditos com base no CPF, ordenado por data decrescente")
+    @GetMapping("/analise-credito/consultar")
+    public List<AnaliseCredito> getAnalisesCpf(@RequestParam(value = "cpf") String cpf) {
+        if (StringUtils.isEmpty(cpf)) {
+            return  analiseCreditoService.getAnalises();
+        }
+        return  analiseCreditoService.getAnalises(cpf);
     }
 
     @ApiOperation(value="Retorna uma Análise de Crédito referente ao id informado")
@@ -90,7 +101,10 @@ public class AnaliseCreditoController {
     }
 
 
-
+    @GetMapping("/teste")
+    public String testeDocker() {
+        return  "tetando docker";
+    }
 
 
 }
