@@ -16,3 +16,5 @@ create table ANALISE_CREDITO (
    LIMITE_MAX           NUMERIC(12,2)        null,
    constraint PK_ANALISE_CREDITO primary key (ID)
 );
+
+create sequence common_seq
