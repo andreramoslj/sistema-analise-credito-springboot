@@ -17,4 +17,4 @@ create table ANALISE_CREDITO (
    constraint PK_ANALISE_CREDITO primary key (ID)
 );
 
-create sequence common_seq;
+create sequence common_seq
