@@ -101,10 +101,6 @@ public class AnaliseCreditoController {
     }
 
 
-    @GetMapping("/teste")
-    public String testeDocker() {
-        return  "tetando docker";
-    }
 
 
 }

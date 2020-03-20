@@ -17,6 +17,8 @@ Utilizei o PostgreSQL, mas pode-se alterar para qualquer banco, basta adicionar 
 -Docker
 
 
+*Documentação SWAGGER 
+
 
 ## DOCKER
 Sistema disponibilizado para rodar no docker
